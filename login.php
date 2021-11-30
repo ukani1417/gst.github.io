@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,41 +14,7 @@ session_start();
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="home.php">Goods And Services Tax</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item" id="1">
-                    <a class="nav-link" href="dbi.php">Business Information</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="dcre.php">Credit Leadger</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="din.php">Invoice</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="dre.php">Returns</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="dpro.php">Product List</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="dp.php">Personal Information</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="dsi.php">State Income</a>
-                </li>
-                <li class="nav-item" id="1">
-                    <a class="nav-link" href="login.php">Login/Sign in</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div>
         <section class="vh-100">
             <div class="container py-5 h-100">
